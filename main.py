@@ -1,3 +1,27 @@
+"""Calculadora infix.
+
+Funcionamento:
+
+[operação] [n1] [n2]
+
+Operações:
+sum -> +
+sub -> -
+mul -> *
+div -> /
+
+Uso:
+$ infixcalc.py sum 5 2
+7
+
+$ infixcalc.py mul 10 5
+50
+
+
+"""
+
+__version__ = "0.1.0"
+
 import sys
 arguments = sys.argv[1:]
 
